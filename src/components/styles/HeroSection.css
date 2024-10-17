@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  
+}
+
+.hero-text-container {
+  max-width: 50%;
+  margin-top: -60px; /* Increased margin top for hero text container */
+  margin-left: 120px;
+}
+
+.hero-text-container h1 {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+.hero-text-container p {
+  font-size: 16px;
+  color: rgb(157, 152, 152);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.learn-more-btn {
+  border: 1px solid #000;
+  background-color: white;
+  padding: 16px 32px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.hero-image-container img {
+  width: 470px; /* Shorter width */
+  height: 700px; /* Longer height */
+  object-fit: cover; /* Ensures the image covers the container */
+  max-width: 100%; /* Responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 120px;
+}
